@@ -1,4 +1,4 @@
-# WebSec-Vulns
+# WebSecVulns
 OWASP10 and other security vulnerabilities guide
 
 > ### 📚 References
