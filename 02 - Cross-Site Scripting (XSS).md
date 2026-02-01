@@ -1,13 +1,13 @@
 > REFLECTED XSS
-
+-
 
 
 > STORED XSS
-
+-
 
 
 > DOM-BASED XSS
-
+-
 
 
 
@@ -24,4 +24,5 @@ javascript:alert('XSS-Hacker')
 ```
 <script>alert(String.fromCharCode(88,83,83))</script>
 ```
+
 
