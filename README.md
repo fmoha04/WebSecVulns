@@ -1,5 +1,5 @@
 # WebSecVulns
-OWASP10 and other security vulnerabilities guide
+OWASP10 and other security vulnerabilities wiki
 
 > ### 📚 References
 <p align="left">
