@@ -1,6 +1,5 @@
-<!-- <div id="formContainer"></div> -->
-
 <script>
+// important to add: <div id="formContainer"></div>
 
     var email;
     var password;
