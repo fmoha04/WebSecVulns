@@ -1,5 +1,12 @@
 ___
 
+# MyExpense1
+![Vuln](https://img.shields.io/badge/Vuln-SQLi-green)
+![Vuln](https://img.shields.io/badge/Vuln-XSS-orange)
+![Vuln](https://img.shields.io/badge/Vuln-CSRF-purple)
+![Platform](https://img.shields.io/badge/Platform-VulnHub-lightgrey)
+___
+
 ```
 - Url: https://www.vulnhub.com/entry/myexpense-1,405/
 - Name: MyExpense: 1
@@ -268,4 +275,6 @@ Aceptamos el pago de la petición.
 
 Si nos logueamos de nuevo como Samuel para comprobar el pago nos salta la flag final : ``flag{H4CKY0URL1F3}``
 
+
 ___
+
