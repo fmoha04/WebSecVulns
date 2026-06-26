@@ -1,5 +1,5 @@
 # WebSecVulns
-OWASP10 and other security vulnerabilities
+A complete collection of guides, writeups, and practical walkthroughs covering the OWASP Top 10 and other critical web security vulnerabilities.
 
 > ### 📚 References
 
