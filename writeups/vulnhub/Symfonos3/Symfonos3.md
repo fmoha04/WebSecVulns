@@ -254,4 +254,5 @@ Obtenemos una shell con acceso root:
 
 <img width="911" height="177" alt="image" src="https://github.com/user-attachments/assets/7b878149-cedb-44f8-8f7c-959ae3a69cb7" />
 
+PWNED ! :)
 
